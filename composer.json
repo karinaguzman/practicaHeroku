@@ -1,0 +1,12 @@
+{
+    "name": "web/practicaheroku",
+    "description": "guias practicas",
+    "type": "yes",
+    "authors": [
+        {
+            "name": "karina guzman",
+            "email": "kaelguztro@gmail.com"
+        }
+    ],
+    "require": {}
+}
