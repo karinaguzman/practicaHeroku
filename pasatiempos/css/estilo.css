@@ -1,0 +1,32 @@
+
+	.caja{
+         background: #3CA0AA;
+         margin-left: 300px;
+         margin-right: 300px;
+	}
+
+	.caja1{
+		background: #84BB2A;
+         margin-left: 300px;
+         margin-right: 300px;
+	}
+
+	.caja2{
+		background: #C08081;
+         margin-left: 300px;
+         margin-right: 300px;
+	}
+	body{
+		background: #CDAC99;
+		margin-left: : 60px;
+	}
+	
+    .h1{
+    	color: #FFFFFF;
+    	font-family: verdana;
+    }
+    li{
+    	color: #FFFFFF;
+    	font-family: verdana;
+    }
+

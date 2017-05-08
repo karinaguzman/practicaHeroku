@@ -1,0 +1,93 @@
+.menu{
+	padding-bottom: 0px;
+    background: #A2D107;
+}
+.menu li{
+	display: inline;
+	font-family: "Homer Simpson", cursive;
+	background: #A2D107;
+	padding: 5px;
+
+	}
+
+.menu li:hover{
+	background: #648004
+}
+
+	.menu li a{
+		margin:0;
+		padding: 0;
+	}
+
+	.cont1 li{
+	
+	font-family: "Homer Simpson", cursive;
+	background: #A2D107;
+	padding: 15px;
+
+	}
+	.menu li a{
+		color: #fff;
+	}
+    .jj{
+    	background: url(../img/raya.jpg);
+    	background-size:100% 200%;
+    	color: #8D0035;
+    	font-family: "Homer Simpson", cursive;
+    	height: 15%
+    }
+
+    fieldset{
+    	background: #EC6D9D;
+    	color: #fff;
+    	font-family: "Homer Simpson", cursive;
+    }
+
+    .img{
+    	 width: 200px; height: 200px; border-radius: 100px; -webkit-border-radius: 150px; -moz-border-radius: 150px; 
+    	}
+
+    	.copy{
+    		color: #fff;
+    	}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+td{
+	margin:0;
+	padding: 0
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+.contr1{
+	height: 100%
+}
+
+body{
+	margin:0;
+}
+
+fieldset{
+	margin: 0;
+}
+
+html, body
+{
+  height: 100%;
+}
+
+.cont1 li {
+	margin:1px;
+	text-align:center;
+}
+
+.cont1 li:hover{
+	background: #648004
+}
