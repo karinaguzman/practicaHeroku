@@ -1,0 +1,165 @@
+@font-face {
+    font-family: fea;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: bonita;
+    src: url(../fonts/BebasNeue.otf);
+}
+
+body {
+	
+	background: url(../img/fondo1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  animation: imageAnimation 36s linear infinite 0s; 
+}
+
+ul li{
+	float:left; /*para acoplar a la izquiera el contenido*/
+	list-style: none;
+	margin: 10px;
+}
+
+ul li ul li{
+	float:none; /*para acoplar a la izquiera el contenido*/
+	list-style: none;
+	margin: 10px;
+	clear:both;
+	border-bottom: 1px solid white;
+
+}
+
+#tienda{
+	float: left;
+	clear:both;
+	font-family: bonita;
+	color: white;
+	font-size: 60px;
+	margin-bottom:10px;
+	margin-left: 250px;
+}
+
+ul li ul{
+	position: absolute;
+	padding: 0px;
+	margin-top: 10px;
+	background:rgba(64,72,92,0.5);
+	width: 200px;
+	border:1px solid white;
+	display: none;
+}
+
+ul li:hover{
+	background: rgba(0,0,0,0.3);
+	padding: 10px;
+	margin: 4px;
+	border-radius: 5px;
+	border: 1px solid white; 
+}
+ 
+ul li:hover ul{
+	display: block;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: fea;
+}
+
+#cabezera{
+    top: 0;
+    width: 100%;
+    background: rgba(64,72,92,0.5);
+    height: 60px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    margin: 0px
+	
+}
+
+#footer{
+	float: left;
+	width: 100%;
+	bottom:0;
+	position: absolute;
+	background: rgba(64,72,92,0.5);
+	height: 30px;
+	border-top: white 1px solid;
+	color: white;
+	font-family: fea;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul{
+	width: 50%;
+	margin: auto;
+    float: right;
+}
+
+.parrafo{
+	float:left;
+	font-family: fea;
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+	padding: 15px;
+	width: 500px;
+ 	margin-top: 100px;
+ 	background: rgba(0,0,0,0.5); 
+ 	border-radius: 5px;
+}
+ .row{
+ 	margin-top:100px;
+ }
+
+nav{
+	float: left;
+	width: 100%;
+	clear:both;
+	margin-top: -80px;
+
+}
+
+table tr td img{ 
+	width: 300px;
+	height: 300px;
+}
+
+table{
+	width: 500px;
+	margin: auto;
+	margin-top: 200px
+}
+
+/*codigo css para ropa de nino*/
+
+#imagen-nino{
+	width: 5px;
+	height: 5px;
+}
+
+.categoria{
+	width: 25%;
+	float: left;
+	height: 1000px;
+	background: white;
+}
+
+.texto{
+	width: 50%;
+	float: left;
+	height: 1000px;
+	background: url(../img/jugar.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
